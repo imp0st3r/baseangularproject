@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 /****ADD YOUR DB NAME HERE********V*/
 var dbURI = 'mongodb://127.0.0.1/test';
-mongoose.connect(dbURI, {useMongoClient: true});
+mongoose.connect(dbURI);
 
 mongoose.connection.on('connected', function() {
 	console.log('Mongoose connected to '+dbURI);
