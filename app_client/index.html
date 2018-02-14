@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--CHANGE TO THE NAME OF YOUR APP-->
+<html ng-app='angularApp'>
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<!--ADD STYLE SHEETS AND SCRIPTS HERE-->
+	<link rel='stylesheet' href='/bootstrap/css/bootstrap.css'>
+	<link rel='stylesheet' href='/stylesheets/font-awesome.min.css'>
+	<link rel='stylesheet' href='/stylesheets/style.css'>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<script src='/angular/angular.js'></script>
+	<script src='/angular/angular-route.js'></script>
+	<script src='/angular/angular-sanitize.js'></script>
+	<script src='/javascripts/jquery-3.2.1.js'></script>
+	<script src='/bootstrap/js/bootstrap.min.js'></script>
+	<base href="/">
+</head>
+<body ng-view>
+	<script src='/app.js'></script>
+	<!--BASIC HEADERS, FOOTERS, AND NAV BAR-->
+	<script src='/common/directives/pageHeader/pageHeader.directive.js'></script>
+	<script src='/common/directives/footerGeneric/footerGeneric.directive.js'></script>
+	<script src='/common/directives/navigation/navigation.directive.js'></script>
+	<script src='/common/directives/navigation/navigation.controller.js'></script>
+	<script src='/home/home.controller.js'></script>
+	<!--ADD SERVICES, DIRECTIVES, AND CONTROLLERS HERE-->
+</body>
+</html>
