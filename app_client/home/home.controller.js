@@ -3,9 +3,9 @@ angular
 	.module('angularApp')
 	.controller('homepageCtrl', homepageCtrl);
 
-homepageCtrl.$inject = ['$location', 'authentication'];
+homepageCtrl.$inject = ['$location'];
 
-function homepageCtrl ($location, authentication) {
+function homepageCtrl ($location) {
 	var vm = this;
 	
 };

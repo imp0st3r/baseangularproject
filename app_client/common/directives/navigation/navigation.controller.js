@@ -3,9 +3,9 @@
 		.module('angularApp')
 		.controller('navigationCtrl', navigationCtrl);
 
-	navigationCtrl.$inject = ['$location', 'authentication', 'pathTracker'];
+	navigationCtrl.$inject = ['$location'];
 
-	function navigationCtrl($location, authentication, pathTracker) {
+	function navigationCtrl($location) {
 		var vm = this;
 		
 	}
